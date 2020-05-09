@@ -7,8 +7,8 @@ li {
 }
 
 .header {
-  background-color: #26d0c9;
-  color: #fff;
+  background-color: #e2f3f5;
+  color: #000000;
   height: 90px;
 }
 
@@ -24,21 +24,26 @@ li {
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
-  
-  
+  background-color: #22d1ee;
+  height: 400px;
 }
 
+.sub {
+  background-color: #3d5af1;
+  height: 400px;
+}
+
+
+
 .footer {
-  background-color: #2f5167;
+  background-color: #0e153a;
   color: #fff;
-  height: 120px;
+  height: 60px;
   padding: 40px;
 }
 
 .footer-logo {
-  float: left;
+  /* float: left; */
   font-size: 32px;
 }
 
