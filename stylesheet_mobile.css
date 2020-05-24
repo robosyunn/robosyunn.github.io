@@ -1,0 +1,184 @@
+@media screen and (max-width: 640px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+  }
+
+  body {
+    font-family: "Avenir Next";
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /*--------------------------------
+    header
+  ---------------------------------*/
+
+  .header {
+    color: #eeeeee;
+    background-color: #222831;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    height: 300px;
+    display: flex;
+  }
+  .header-container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+  }
+
+  .header-icon {
+    /* margin-left: 0px; */
+    /* display: flex; */
+  }
+
+  .header-icon img{
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    margin-right: 8px;
+    width: 60%;
+  }
+
+  .header-info {
+    /* background-color: tomato; */
+    font-family: 'Open sans', sans-serif;
+    margin-left: 10px;
+  }
+
+  .header-info img{
+    border-radius: 50%;
+    /* border-width: 1px;
+    border-style: solid;
+    color: black; */
+    background-color: #eee;
+  }
+
+  .header-info h1{
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+
+  .header-info p{
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .header-info ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+  }
+
+  .header-info ul li{
+    margin-right: 8px;
+  }
+
+  /*--------------------------------
+    sub
+  ---------------------------------*/
+
+  .sub {
+    /* background-color: #3d5af1; */
+    background-color: #393e46;
+    height: 56px;
+    font-family: 'Open sans', sans-serif;
+    padding: 10px;
+  }
+
+  .sub-list ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub-list li{
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 30px;
+    margin-right: 50px;
+  }
+
+  .sub-list li a{
+    color: #00adb5;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+  }
+
+  /*--------------------------------
+    main
+  ---------------------------------*/
+
+  .main {
+    background-color: #00adb5;
+    color: #eeeeee;
+    height: 400px;
+    font-family: 'Open sans', sans-serif;
+    padding: 10px;
+  }
+
+  /*--------------------------------
+    section
+  ---------------------------------*/
+
+  .section {
+    padding: 30px 10px;
+  }
+
+  .section-title {
+    color: #eeeeee;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  .section-body {
+    color: #eeeeee;
+    text-align: center;
+  }
+
+  /*--------------------------------
+    footer
+  ---------------------------------*/
+
+  .footer {
+    background-color: #eeeeee;
+    height: 56px;
+    font-family: 'Open sans', sans-serif;
+    padding: 10px;
+  }
+
+  .footer-list ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-list li{
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 30px;
+    margin-right: 50px;
+  }
+
+  .footer-list li a{
+    color: #222831;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+  }
+
+  /* https://colorhunt.co/palette/2763 */
+}
