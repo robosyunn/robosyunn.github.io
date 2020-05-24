@@ -18,7 +18,7 @@
   ---------------------------------*/
 
   .header {
-    color: rgb(192, 196, 255);
+    color: #eeeeee;
     background-color: #222831;
     font-family: 'Open sans', sans-serif;
     font-weight: bold;
@@ -36,6 +36,7 @@
 
   .header-icon{
     margin-top: 4px;
+    margin-bottom: 4px;
   }
 
   .header-icon img{
@@ -100,6 +101,7 @@
   .sub-list ul{
     display: flex;
     justify-content: center;
+    padding-left: 60px;
   }
 
   .sub-list li{
@@ -166,7 +168,7 @@
   .footer-list ul{
     display: flex;
     justify-content: center;
-    
+    padding-left: 60px;
   }
 
   .footer-list li{
@@ -174,14 +176,12 @@
     font-size: 18px;
     display: inline-block;
     margin-right: 50px;
-    
   }
 
   .footer-list li a{
     color: #222831;
     letter-spacing: -0.01em;
     text-decoration: none;
-    
   }
 
   /* https://colorhunt.co/palette/2763 */
