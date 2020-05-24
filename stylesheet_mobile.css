@@ -36,15 +36,17 @@
   }
 
   .header-icon {
-    /* margin-left: 0px; */
+    /* margin-bottom: px; */
     /* display: flex; */
+    
   }
 
   .header-icon img{
     border-radius: 50%;
     border-width: 4px;
     border-style: solid;
-    margin-right: 8px;
+    margin-left: 40px;
+    margin-bottom: 8px;
     width: 60%;
   }
 
@@ -56,9 +58,6 @@
 
   .header-info img{
     border-radius: 50%;
-    /* border-width: 1px;
-    border-style: solid;
-    color: black; */
     background-color: #eee;
   }
 
@@ -66,7 +65,7 @@
     font-weight: normal;
     font-size: 32px;
     margin: 0;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
 
   .header-info p{
@@ -108,7 +107,6 @@
     font-weight: bold;
     font-size: 18px;
     display: inline-block;
-    padding: 0 30px;
     margin-right: 50px;
   }
 
@@ -170,7 +168,6 @@
     font-weight: bold;
     font-size: 18px;
     display: inline-block;
-    padding: 0 30px;
     margin-right: 50px;
   }
 
