@@ -15,7 +15,15 @@
     <!-- googleとかで検索したときの説明欄 -->
 
     <!-- headにはサイトの情報を書くらしい -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* このやり方は対応ブラウザが限られるからあまり実用的ではない */
+    </style>
+
 </head>
+
 
 <body>
     <!-- <div class="header">
@@ -30,8 +38,7 @@
             </ul>
         </div>
     </div> -->
-
-    <div class="header">
+    <div class="header" id="home">
         <div class="header-container">
             <div class="header-icon">
                 <img src="img/robosyunn.jpg" width="140" height="140" alt="アイコンです">
@@ -39,7 +46,6 @@
             </div>
             <div class="header-info">
                 <h1>robosyunn</h1>
-                <p>やってみる</p>
                 <ul>
                     <li>
                         <a href="https://twitter.com/robosyunn" target="_blank">
@@ -66,7 +72,7 @@
         </div>
     </div>
 
-    <div class="main">
+    <div class="main" id="about">
         <div class="section">
             <div class="section-title">
                 <h2>About</h2>

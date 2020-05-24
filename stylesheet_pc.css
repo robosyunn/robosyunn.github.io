@@ -7,6 +7,7 @@
     list-style: none;
   }
 
+
   /*--------------------------------
     header
   ---------------------------------*/
@@ -16,7 +17,7 @@
     background-color: #222831;
     font-family: 'Open sans', sans-serif;
     font-weight: bold;
-    height: 300px;
+    height: 280px;
     display: flex;
   }
   .header-container {
@@ -89,6 +90,8 @@
     height: 56px;
     font-family: 'Open sans', sans-serif;
     padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+    position:relative;
   }
 
   .sub-list ul{
@@ -128,6 +131,7 @@
 
   .section {
     padding: 30px 10px;
+    
   }
 
   .section-title {

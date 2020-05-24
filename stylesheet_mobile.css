@@ -18,42 +18,39 @@
   ---------------------------------*/
 
   .header {
-    color: #eeeeee;
+    color: rgb(192, 196, 255);
     background-color: #222831;
     font-family: 'Open sans', sans-serif;
     font-weight: bold;
-    height: 300px;
+    /* height: 200px; */
     display: flex;
+    
+    
   }
   .header-container {
-    width: 480px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     align-items: center;
   }
 
-  .header-icon {
-    /* margin-bottom: px; */
-    /* display: flex; */
-    
+  .header-icon{
+    margin-top: 4px;
   }
 
   .header-icon img{
     border-radius: 50%;
     border-width: 4px;
     border-style: solid;
-    margin-left: 40px;
-    margin-bottom: 8px;
-    width: 60%;
+    margin-top: 2px;
+    margin-left: 45px;
+    width: 50%;
   }
 
   .header-info {
     /* background-color: tomato; */
     font-family: 'Open sans', sans-serif;
-    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .header-info img{
@@ -96,6 +93,8 @@
     height: 56px;
     font-family: 'Open sans', sans-serif;
     padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+    position:relative;
   }
 
   .sub-list ul{
@@ -126,7 +125,9 @@
     height: 400px;
     font-family: 'Open sans', sans-serif;
     padding: 10px;
+    
   }
+
 
   /*--------------------------------
     section
@@ -134,6 +135,7 @@
 
   .section {
     padding: 30px 10px;
+    
   }
 
   .section-title {
@@ -146,6 +148,7 @@
   .section-body {
     color: #eeeeee;
     text-align: center;
+    
   }
 
   /*--------------------------------
@@ -157,11 +160,13 @@
     height: 56px;
     font-family: 'Open sans', sans-serif;
     padding: 10px;
+    
   }
 
   .footer-list ul{
     display: flex;
     justify-content: center;
+    
   }
 
   .footer-list li{
@@ -169,12 +174,14 @@
     font-size: 18px;
     display: inline-block;
     margin-right: 50px;
+    
   }
 
   .footer-list li a{
     color: #222831;
     letter-spacing: -0.01em;
     text-decoration: none;
+    
   }
 
   /* https://colorhunt.co/palette/2763 */
